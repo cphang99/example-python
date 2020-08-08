@@ -7,7 +7,6 @@ python_binary(
     entry_point = "helloworld.main",
     dependencies = [
         ":config",
-        "//:ansicolors",
         "helloworld/greet",
     ],
 )
